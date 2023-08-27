@@ -1,0 +1,51 @@
+.home {
+  background-color: #F6EDE3; /* Cambio de color a durazno */
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterSelect {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #404041;
+  border-radius: 5px;
+  background-color: #FCF6F5FF; /* Cambio de color */
+}
+
+.buttonReset {
+  display: block;
+  margin: 0 auto;
+  background-color: #E6C17A;
+  color: black;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tabButtons button {
+  padding: 10px 20px;
+  background-color: #404041;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.tabButtons button:hover {
+  background-color: #1E1E1E;
+}

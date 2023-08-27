@@ -1,0 +1,28 @@
+.paginado {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.number {
+  border: 1px solid #404041; /* Cambio de color */
+  background-color: #F6EDE3; /* Cambio de color */
+  color: #404041; /* Cambio de color */
+  padding: 8px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.number:hover {
+  background-color: #E6C17A; /* Cambio de color */
+  color: #fff;
+  transform: scale(1.05);
+  border-color: #E6C17A; /* Cambio de color */
+}
+
+.number.active {
+  background-color: #E6C17A; /* Cambio de color */
+  color: #fff;
+  border-color: #E6C17A; /* Cambio de color */
+}

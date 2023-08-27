@@ -1,0 +1,44 @@
+/* Estilo para el contenedor principal */
+.container {
+  background-color: #D3CAE2; /* Nuevo color de fondo */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Estilo para el título (logo) */
+.title {
+  background-color: #E6C17A; /* Nuevo color de fondo */
+  border: none;
+  color: #404041; /* Nuevo color de texto */
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.title:hover {
+  background-color: #F6EDE3; /* Nuevo color de fondo en hover */
+  transform: scale(1.05);
+}
+
+/* Estilo para el botón 'CREATE ACTIVITY' */
+.form {
+  background-color: #D3CAE2; /* Nuevo color de fondo */
+  border: 2px solid #D3CAE2; /* Nuevo color del borde */
+  color: #404041; /* Nuevo color de texto */
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-left: 56.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  border-radius: 5px;
+}
+
+.form:hover {
+  background-color: #E6C17A; /* Nuevo color de fondo en hover */
+  color: #404041;
+  transform: scale(1.05);
+}

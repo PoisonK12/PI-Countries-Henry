@@ -1,0 +1,63 @@
+/* Card.module.css */
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #404041; /* Cambio de color */
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  transition: border-color 0.3s ease;
+  background-color: #F6EDE3; /* Cambio de color */
+}
+
+.card:hover {
+  border-color: #E6C17A; /* Cambio de color */
+}
+
+.cardHeader {
+  background-color: #E6C17A; /* Cambio de color */
+  color: #404041; /* Cambio de color */
+  padding: 10px;
+}
+
+.cardHeader h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.cardContent img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cardDetails {
+  text-align: center;
+}
+
+.cardDetails h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.rubyCard {
+  font-size: 1.5rem;
+  color: #404041; /* Cambio de color */
+  font-weight: bold;
+}
+
+.rtCard {
+  font-size: 1rem;
+  color: #b3a9c3; /* Cambio de color */
+  font-weight: bold;
+}

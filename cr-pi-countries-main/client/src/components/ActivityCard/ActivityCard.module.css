@@ -1,0 +1,47 @@
+/* ActivityCard.module.css */
+
+.activityCard {
+  border: 2px solid #D3CAE2; /* Cambio de color */
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(211, 202, 226, 0.2); /* Cambio de color */
+  padding: 20px;
+  margin: 20px;
+  background-color: #FCF6F5FF; /* Cambio de color */
+  font-family: 'Arial', sans-serif;
+}
+
+.cardHeader {
+  margin-bottom: 20px;
+}
+
+.cardHeader h2 {
+  font-size: 28px;
+  margin: 0;
+  color: #404041; /* Cambio de color */
+  font-family: 'Helvetica', sans-serif;
+  background-color: #E6C17A;
+  text-align: center;
+}
+
+.cardContent {
+  display: flex;
+}
+
+.cardDetails {
+  flex: 1;
+}
+
+.difficulty,
+.details,
+.countries {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.countries {
+  color: #E6C17A; /* Cambio de color */
+  font-weight: bold;
+}
+
+/* Puedes ajustar los colores, márgenes, fuentes y otros estilos para que coincidan con tu diseño */

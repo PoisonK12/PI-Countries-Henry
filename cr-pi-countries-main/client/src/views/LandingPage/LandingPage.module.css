@@ -1,0 +1,30 @@
+.fullView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #D3CAE2; /* Cambio de color de fondo */
+  color: #E6C17A; /* Cambio de color del texto */
+  background: url('https://i.pinimg.com/originals/4f/fa/69/4ffa6939fc39a9baff45d5b5fdf52d77.jpg') no-repeat center center fixed;
+}
+
+.fullView h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.landingButton {
+  padding: 10px 20px;
+  background-color: #E6C17A; /* Cambio de color */
+  color: #404041; /* Cambio de color */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.landingButton:hover {
+  background-color: #F6EDE3; /* Cambio de color en hover */
+}

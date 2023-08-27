@@ -1,0 +1,109 @@
+/* Ajustes generales */
+.formContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:  #F8EBCC;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Botón estilo primario */
+.createButton {
+  background-color: #404041;
+  color: #FCF6F5FF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.createButton:hover {
+  background-color: #E6C17A;
+}
+
+/* Etiquetas y campos de entrada */
+.formLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Opciones del checkbox */
+.backButton {
+  display: block;
+  margin: 0 auto;
+  background-color: #404041;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Selector de países */
+.selectCountries {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Lista de países seleccionados */
+.selectedCountries {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.selectedCountries li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.removeButton {
+  background-color: #AE0E36FF;
+  color: #FCF6F5FF;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.removeButton:hover {
+  background-color: #D32E5EFF;
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 0, 0, 1);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+  }
+}
+
+/* Apply the animation to the .error element */
+.error {
+  color: red;
+  animation: glowing 1.5s infinite;
+  font-weight: bold;
+}

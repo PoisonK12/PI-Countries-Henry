@@ -1,0 +1,30 @@
+/* Estilo para el contenedor de la barra de búsqueda */
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para el input de búsqueda */
+.searchInput {
+  padding: 8px;
+  border: 2px solid #D3CAE2; /* Nuevo color de borde */
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Estilo para el botón de búsqueda */
+.searchButton {
+  background-color: #E6C17A; /* Nuevo color de fondo */
+  color: #404041; /* Nuevo color de texto */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo para el hover del botón de búsqueda */
+.searchButton:hover {
+  background-color: #F6EDE3; /* Nuevo color de fondo en hover */
+  color: #404041; /* Nuevo color de texto en hover */
+}
