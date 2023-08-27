@@ -2,7 +2,7 @@ interface Form {
   name: string;
   difficulty: number;
   duration: string;
-  season: string[];
+  season: string;
   countries: string[];
 }
 
